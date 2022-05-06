@@ -1,4 +1,5 @@
-import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 
 
 
@@ -11,7 +12,8 @@ import Navbar from "./components/Navbar"
 export default function App() {
     return (
    <div>
-     <Navbar />
+     <Header />
+     <Meme />
    </div>
     
     )}

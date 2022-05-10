@@ -14,7 +14,7 @@ const [meme, setMeme] = React.useState({
     React.useEffect(() => {
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => console.log(data.data.memes))
     }, [])
     
     

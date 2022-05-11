@@ -9,6 +9,10 @@ body {
 
 main {
     padding: 36px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -64,6 +68,8 @@ main {
 }
 
 .meme--image {
+    display: flex;
+    margin: 0 auto;
     max-width: 100%;
     border-radius: 3px;
 }
